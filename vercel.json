@@ -23,7 +23,7 @@
   "rewrites": [
     {
       "source": "/about",
-      "destination": "/frontend/index.js"
+      "destination": "frontend/index.js"
     }
   ]
 }
