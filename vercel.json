@@ -8,7 +8,15 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/",
+      "dest": "frontend/index.js"
+    },
+    {
+      "src": "/hey",
+      "dest": "frontend/index.js"
+    },
+    {
+      "src": "/hello",
       "dest": "frontend/index.js"
     }
   ]
