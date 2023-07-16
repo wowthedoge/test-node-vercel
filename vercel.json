@@ -19,5 +19,11 @@
       "src": "/hello",
       "dest": "frontend/index.js"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/frontend/index.js"
+    }
   ]
 }
