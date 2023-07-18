@@ -5,7 +5,7 @@
       "src": "frontend/index.js",
       "use": "@now/node"
     }
-  ],
+  ],  
   "routes": [
     {
       "src": "/",
@@ -18,12 +18,6 @@
     {
       "src": "/hello",
       "dest": "/frontend/index.js"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/about",
-      "destination": "/frontend/index.js"
     }
   ]
 }
