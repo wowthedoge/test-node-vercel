@@ -9,7 +9,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "frontend/index.js"
+      "destination": "/frontend/index.js"
     }
   ]
 }
