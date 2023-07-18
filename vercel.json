@@ -8,14 +8,14 @@
   ],
   "routes": [
     {
-        "src": "/(.*)",
+        "src": "/",
         "dest": "frontend/index.js"
     }
   ], 
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "frontend/index.js"
+      "destination": "/"
     }
   ]
 }
