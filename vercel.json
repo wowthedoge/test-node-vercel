@@ -13,10 +13,7 @@
     }
   ],
   "rewrites": [
-    {
-      "source": "/conflict",
-      "destination": "https://rubberducker.vercel.app/"
-    }
+
   ]
 
 }
