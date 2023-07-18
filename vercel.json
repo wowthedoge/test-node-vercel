@@ -6,18 +6,10 @@
       "use": "@now/node"
     }
   ],  
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/frontend/index.js"
-    },
-    {
-      "src": "/hey",
-      "dest": "/frontend/index.js"
-    },
-    {
-      "src": "/hello",
-      "dest": "/frontend/index.js"
+      "source": "/",
+      "destination": "https://google.com"
     }
   ]
 }
