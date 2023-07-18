@@ -8,8 +8,8 @@
   ],  
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://google.com"
+      "source": "/(.*)",
+      "destination": "frontend/index.js"
     }
   ]
 }
