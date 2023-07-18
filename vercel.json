@@ -14,7 +14,7 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/conflict",
       "destination": "https://rubberducker.vercel.app/"
     }
   ]
